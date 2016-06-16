@@ -1,2 +1,2 @@
-# PaulBartlettDotXYZ
-Personal website at http://www.paulbartlett.xyz/
+# Paul Bartlett's Website
+A website I am building using jekyll and redirected to http://www.paulbartlett.xyz/
