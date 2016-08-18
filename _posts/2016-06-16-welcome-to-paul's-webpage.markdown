@@ -1,7 +1,8 @@
 ---
 layout: post
+type: blog
 title:  "Welcome to Paul's Webpage!"
-date:   2016-06-16 3:56:47 -0500
+date:   2016-07-18 1:29:47 -0500
 categories: jekyll update
 ---
-This site is new and will be changing as I continue testing and tweaking it.
+Just set up a new theme and I will be modifying and adding to it in the future!
