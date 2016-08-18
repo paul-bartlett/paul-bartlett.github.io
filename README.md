@@ -1,3 +1,7 @@
+# Paul Bartlett's Webpage
+My personal website hosted at www.paulbartlett.xyz that uses jekyll and the theme Orange as a basis for the site. 
+I will be updating this site and modifying it to learn about building websites. More information about the theme below.
+
 ## Orange
 Orange, an open source and free minimal [Jekyll](http://jekyllrb.com) theme. It is a product of my attempt at learning Jekyll. This guide will help you get started with the theme's basic customization and settings.
 
