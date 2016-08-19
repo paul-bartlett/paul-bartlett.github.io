@@ -1,6 +1,6 @@
 # Title: This appears on your metadata and is part of your title tag
 # ===========
-title: Orange
+title: Paul Bartlett's Webpage
 
 # Description: This is part of your metatag, keep it under 150 characters for SEO
 # =========== 
@@ -14,12 +14,12 @@ avatar_path: "/assets/img/avatar.png"
 # Url: Your hosting url
 # Change this to your hosting url e.g. http://[your_name].github.io OR http://localhost:4000
 # ===========
-url: "http://paulbartlett.xyz"
+url: "http://talentedunicorn.com/orange"
 
 # Google Tag manager ID: Use Google Tag manager to easily manage your tracking scripts.  
 # Create a new container and add your container ID here
 # ==========
-tagManagerID: GTM-PZNT26 # Your tag manager container ID
+# tagManagerID: GTM-PZNT26 # Your tag manager container ID
 
 # Disqus settings: For comment support
 # ==========
@@ -27,7 +27,7 @@ disqus_shortname: orangejekylltheme # Disqus shortname
 
 # Contact form post url - Where the form gets posted - Check out formspree.io for free form posts http://formspree.io/
 # ==========
-formpost: http://formspree.io/orangetheme.50.talentedunicorn@spamgourmet.com
+formpost: http://formspree.io/bartlett_paul@hotmail.com
 
 env: production # - Set 'development' or 'production'
 exclude: [node_modules/, .sass-cache/]
