@@ -2,22 +2,20 @@
 #
 
 # Site settings
-title: Spectral
-description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
+title: Paul Bartlett
+description: Music &#x2192; coding
 owner: Paul Bartlett # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: bartlett_paul@hotmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://paulbartlett.xyz" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  #twitter: https://twitter.com/<username>
   github: https://github.com/paul-bartlett
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  linkedin-square: https://linkedin.com/in/paul-bartlett-20199a122
+  last.fm: http://www.last.fm/user/XxpAuLbxX
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
   #instagram:
