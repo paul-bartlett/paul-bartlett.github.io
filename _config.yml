@@ -55,3 +55,18 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+exclude: ['README.md']
+include: ['_pages']
+defaults:
+  - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
+      path: _posts
+    values:
+      layout: post
+  - scope:
+      path: _drafts
+    values:
+      layout: post
