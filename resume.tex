@@ -1,0 +1,149 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\vspace*{-40pt}
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Paul Bartlett}}\\
+	London, Ontario $\cdot$ pbartle7@uwo.ca $\cdot$ (226) 224-3388\\
+\end{center}
+
+\vspace*{2mm}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Western Ontario}\hfill London, Ontario\\
+Honors Specialization in Computer Science with a Minor in Software Engineering \hfill Grad: May 2018\\
+\vspace{2mm}
+
+\vspace*{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{3M Canada} \hfill London, Ontario\\
+\textit{Web Development Intern} \hfill September 2016 | August 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Created custom web applications and web pages in a CMS
+	\item Did testing, bug fixing, and code refactors on web applications made by other team members
+	\item Collaborated with other team members to solve problems
+	\item Worked with many different web technologies (HTML, CSS, JavaScript, jQuery, PHP, Node.js, Underscore, RequireJS, JSON)
+\end{itemize}
+
+\textbf{SCHOTT Gemtron} \hfill Midland, Ontario\\
+\textit{IT Technician Assistant} \hfill Summers 2015 | 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Fixed hardware and software problems on Windows machines
+	\item Properly set up desktops and laptops
+	\item Worked with and helped maintain Virtual Servers
+	\item Participated in weekly and monthly conference calls
+\end{itemize}
+
+\textbf{SCHOTT Gemtron} \hfill Midland, Ontario\\
+\textit{General Labour} \hfill Summers 2012 | 2014\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Final inspection of high quality glass products before shipment to customer
+	\item Worked in several positions on production lines including inspection, material handling, and as a machine operator
+	\item Participated in LEAN manufacturing workshops
+\end{itemize}
+
+\textbf{Willow Creek Baptist Church} \hfill Midhurst, Ontario\\
+\textit{Camp Leader} \hfill Summers 2008 | 2011\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Managed around 25 children attending the facility
+	\item Organized crafts, snacks, and games
+\end{itemize}
+
+\header{Projects}
+
+{\textbf{Littmann product customizer} \sl JavaScript, Underscore, RequireJS} \hfill https://www.littmann.ca/3M/en\_CA/littmann-stethoscopes-ca/products/find-your-perfect-stethoscope/\\
+Worked with 2 other developers to create the customizer for 3M Canada. Allows the user to customize the tube colour, chestpiece finish, and length of a stethoscope. Used Underscore for templating and helped develop most of the backend logic.\\
+\vspace*{2mm}
+{\textbf{Custom data visualization program} \sl C++} \\
+Worked in a group of 10 as a GUI developer and code inspector. Program parses a large CSV file and displays data in an intuitive way. Uses external libraries to display graphed data.\\
+\vspace*{2mm}
+{\textbf{Log file analyser} \sl Haskell} \hfill https://github.com/paul-bartlett/Haskell/tree/master/CIS\%20194/Homework\%202\\
+Parses thousands of individual messages and inserts them into a sorted tree. Filters based on severity and outputs the message.\\
+\vspace*{2mm}
+
+\vspace*{2mm}
+        
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages: & Java, C, JavaScript, Haskell , Python, Ruby, Assembly \\
+\end{tabular}
+
+\vspace*{2mm}
+
+\ 
+\end{document}
