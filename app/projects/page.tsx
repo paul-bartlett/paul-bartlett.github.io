@@ -20,9 +20,9 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
-  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const featured = allProjects.find((project) => project.slug === "receipt-scanner")!;
+  const top2 = allProjects.find((project) => project.slug === "edgekv-cli")!;
+  const top3 = allProjects.find((project) => project.slug === "edgeworkers-examples")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(

@@ -1,28 +1,20 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Paul Bartlett",
+    template: "%s | Paul Bartlett",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Developer and racket sport fanatic",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    title: "Paul Bartlett",
+    description: "Developer and racket sport fanatic",
+    url: "http://paul-bartlett.github.io/",
+    siteName: "Paul Bartlett",
     locale: "en-US",
     type: "website",
   },
@@ -36,10 +28,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.png",
